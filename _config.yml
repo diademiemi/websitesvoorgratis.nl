@@ -20,8 +20,8 @@
 
 title: websitesvoorgratis.nl
 description: Gratis World Wide Web Websites!
-baseurl: "www.websitesvoorgratis.nl" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.websitesvoorgratis.nl" # the base hostname & protocol for your site
 
 twitter_username: diademiemi
 github_username: diademiemi
