@@ -1,0 +1,29 @@
+---
+---
+
+.path-container {
+    padding: 1px 16px;
+    text-align: center;
+}
+
+/* Styles for individual blog paths */
+.path-title {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+.path-date {
+    font-size: 1em; /* Smaller size for the date */
+    color: #666; /* Optional: color for the date */
+    // margin-top: 0em; /* Reduced top margin */
+    // margin-bottom: 0.2vw;
+}
+
+.path-content {
+    // max-width: 60vw; /* Set the width to 60% of the page */
+    // margin-left: calc((100vw - 80vw) / 2); /* Adjust for the sidebar's width */
+    // margin-right: calc((100vw - 80vw) / 2);
+    text-align: left; /* Keep the text left-aligned */
+    // /* Other styles if needed */
+    // display: flex;
+}

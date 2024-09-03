@@ -1,0 +1,75 @@
+---
+---
+
+
+.main-title {
+    font-size: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); // Example drop shadow
+    // Other styles...
+}
+
+@font-face {
+  font-family: 'Agave';
+  src: url('../fonts/AgaveNerdFont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Comic Sans';
+  src: url('../fonts/QDBetterComicSans.ttf') format('truetype');
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Comic Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0915ff;
+}
+
+a, /* Styles for links within the content */
+a:visited { /* Styles for visited links */
+    color: #1a00c5; /* Desired link color */
+    text-decoration: none; /* Removes underline, optional */
+}
+
+a:hover,
+a:focus,
+a:active { /* Styles for links on hover, focus, and active states */
+    color: #1a00c5; /* Maintains the same color on hover, focus, and active states */
+    text-decoration: underline; /* Underline on hover, focus, and active, optional */
+}
+
+body, p { // General text elements
+    font-size: 1.2em; // Increase the general font size by 1.5x
+}
+
+li { // List elements
+    font-size: 1.2em;
+}
+
+li li { // Nested list elements
+    font-size: 1em; // Reset the font size to the default
+}
+
+summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.container {
+    // margin-left: 20px;
+    // padding: 1px 16px;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    // margin-top: 1em;
+}

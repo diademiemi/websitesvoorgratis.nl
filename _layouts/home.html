@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ansible Content</title>
+    <link rel="stylesheet" href="{{ '/wp-content/css/home.css' | relative_url }}">
+</head>
+<body>
+
+    <!-- Specific content for the home page -->
+    <div class="home-content container">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>   
+</body>
+</html>

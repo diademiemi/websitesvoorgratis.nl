@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include shared head content like meta tags, stylesheets, etc. -->
+    <link rel="stylesheet" href="{{ '/wp-content/css/path.css' | relative_url }}">
+    <meta name="twitter:description" content="{{ page.tabtitle }}" />
+    <meta propety="og:description" content="{{ page.tabtitle }}" />
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <!-- Main Content Area -->
+    <div class="path-content container">
+        {{ content }}
+    </div>
+
+</body>
+</html>

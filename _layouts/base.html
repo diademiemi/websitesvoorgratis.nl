@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@diademiemi" />
+    <meta name="twitter:title" content="{{ page.tabtitle | default: site.title }}" />
+    <meta name="twitter:image" content="https://www.websitesvoorgratis.nl/wp-content/img/logo.png" />
+    <meta property="og:site_name" content="websitesvoorgratis.nl" />
+    <meta property="og:title" content="{{ page.tabtitle | default: site.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.websitesvoorgratis.nl/wp-content/img/logo.png" />
+    <meta content="#ffffff" name="theme-color" />
+    <title>{{ page.tabtitle | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/wp-content/css/base.css' | relative_url }}">
+</head>
+<body>
+    <!-- Main content -->
+    <div class="container">
+        {{ content }}
+    </div>
+</body>
+</html>

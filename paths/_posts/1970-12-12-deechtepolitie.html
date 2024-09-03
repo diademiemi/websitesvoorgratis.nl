@@ -1,0 +1,195 @@
+---
+layout: path
+title: De Echte Politie
+
+date:   1970-12-12 23:59:59 +0100
+tabtitle: De Echte Politie
+
+permalink: /deechtepolitie
+---
+<head>
+    <style>
+        body {
+            background-image: url('/wp-content/img/deechtepolitie-bg.jpg');
+            background-repeat: repeat-y;
+            background-size: auto; /* Ensures the background image repeats only vertically */
+            animation: scrollBg 10s linear infinite;
+        }
+        @keyframes scrollBg {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: 0 100%;
+            }
+        }
+        .center-button {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10%;
+        }
+        .page {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .text {
+            flex: 0 0 auto;
+            max-width: 40%;
+        }
+        .image {
+            flex: 0 0 600px;
+            margin-left: auto;
+        }
+        .forms-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .form-page {
+            width: 48%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            margin-bottom: 20px;
+            padding: 5px;
+            font-size: 14px;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .scrolling-container {
+            position: relative;
+            height: 75px;
+            margin: 30px 0;
+            overflow: hidden;
+        }
+        .scrolling-image {
+            position: absolute;
+            height: 75px;
+            width: auto;
+            animation: scroll 10s linear infinite;
+        }
+        @keyframes scroll {
+            from {left: 100%;}
+            to {left: -100%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="center-button">
+        <a href="/">
+            <img src="/wp-content/img/back-button.jpg" alt="Back to Home" style="width: 100%;">
+        </a>
+    </div>
+    <div class="page">
+        <div class="text">
+            <h2>hallo!! dit is de oficiele website van de politie</h2>
+            <p>dit is echte politie site. je kan dit bevestigen omdat de website eindigt in .be</p>
+            <p>wees alert dat er recent veel fishing scams rond gaan! pas op en vermijt de wepsites rijksoverheid.nl en politie.nl, de zijn ilegale dark web sites, dus let op! de sites bezoeken kan tot wel een boete van 2 gulden zijn</p>
+            <p>pas ook op dat er nep agenten rond lopen op straat. een echt politie kan je herkennen door de blauwe hoed and gele grote ster (zie afbeelding rechts)</p>
+            <p>we zijn druk bezig met drugs crimilenen oppaken. als je vermoed drugs te zien of zelf in bezit hebt van drugs doe het graag ZSM!!! melden in ons formelier (onder de pagina)</p>
+            <p>je kan ons ook altijd bereiken op onze 24/7 MSN messenger lijn</p>
+            <p>wees bewust van extra kosten voor onze diensten. zorg dat je altijd kontant geld bij de hand heb</p>
+            <p>we zoeken voor nieuwe leuke colegas!! wat wei bieden: leuke aktieve werksfeer, mooi selaris, fleksibele uren, gratis uniformpje. soliciteer graag beneden!</p>
+        </div>
+        <div class="image">
+            <img src="/wp-content/img/deechtepolitie.png" alt="Image" width="600" onclick="playBoing();">
+        </div>
+    </div>
+
+    <div class="scrolling-container">
+        <img class="scrolling-image" src="/wp-content/img/deechtepolitie-car.png" alt="tuta tuta" onclick="playSound();">
+        <img class="scrolling-image" src="/wp-content/img/deechtepolitie-car.png" alt="tuta tuta" onclick="playSound();" style="animation-delay: 3s;">
+        <img class="scrolling-image" src="/wp-content/img/deechtepolitie-car.png" alt="tuta tuta" onclick="playSound();" style="animation-delay: 6s;">
+    </div>
+
+    <div class="forms-container">
+        <div class="form-page">
+            <h2>raportaje maken</h2>
+            <form onsubmit="return handleForm1(this);">
+                <label for="q1">wat is je naam:</label>
+                <input type="text" id="q1" name="q1">
+
+                <label for="q2">waar ben je:</label>
+                <input type="text" id="q2" name="q2">
+
+                <label for="q3">wat is er:</label>
+                <input type="text" id="q3" name="q3">
+
+                <label for="q4">heeft het haast:</label>
+                <input type="text" id="q4" name="q4">
+
+                <label for="q5">vul als bevestiging je burgerservesnummer in:</label>
+                <input type="text" id="q5" name="q5">
+
+                <input type="submit" value="stuur in">
+            </form>
+        </div>
+
+        <div class="form-page">
+            <h2>open solicitatie vakature</h2>
+            <form onsubmit="return handleForm2(this);">
+                <label for="q6">warom wil je dit:</label>
+                <input type="text" id="q6" name="q6">
+
+                <label for="q7">wat is je woonplaats:</label>
+                <input type="text" id="q7" name="q7">
+
+                <label for="q8">naam en gebortedatum:</label>
+                <input type="text" id="q8" name="q8">
+
+                <label for="q9">warom zal je een leuke colega zijn??:</label>
+                <input type="text" id="q9" name="q9">
+
+                <label for="q10">criminel gesiedenis (belanrijk):</label>
+                <select id="q10" name="q10">
+                    <option value="option1">zeker maar nog niet opgepakd</option>
+                    <option value="option2">criminele aspiraties</option>
+                    <option value="option3">ik wacht op een oproep naar de bak</option>
+                    <option value="option4">Option 4  # TODO</option>
+                </select>
+                
+                <input type="submit" value="Insturen">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function handleForm1(form) {
+            alert("succesvol gesoliciteert!!!! binnen 24 uur zal je een oproep krijgen van een van onze rekruiting agenten");
+            form.reset();
+            return false;
+        }
+        function handleForm2(form) {
+            alert("criminele raportage ingediend!!! we zullen zsm bij je lanskomen. zorg dat je kontant geld bij de hand hebt voor de servicekosten");
+            form.reset();
+            return false;
+        }
+        function playSound() {
+            var audio = new Audio('/wp-content/misc/tuta.mp3');
+            audio.play();
+        }
+        function playBoing() {
+            var audio = new Audio('/wp-content/misc/boing.mp3');
+            audio.play();
+        }
+    </script>
+</body>

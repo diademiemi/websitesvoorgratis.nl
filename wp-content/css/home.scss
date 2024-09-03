@@ -1,0 +1,50 @@
+---
+---
+
+.container {
+    // padding: 1px 16px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+    justify-content: space-between;
+}
+
+.home-title {
+    // margin-bottom: 0em; /* Reduced bottom margin */
+    // margin-top: 0.5em; /* Increased top margin */
+    font-size: 8vh; /* Large size for the title */
+}
+
+.home-subtitle {
+    font-size: 1.5em; /* Smaller size for the date */
+    color: #666; /* Optional: color for the date */
+    // margin-top: 0em; /* Reduced top margin */
+    // margin-bottom: 1vh;
+}
+
+.home-content {
+    // margin-left: calc((100vw - 90vw) / 2); /* Adjust for the sidebar's width */
+    // margin-right: calc((100vw - 90vw) / 2);
+    text-align: left; /* Keep the text left-aligned */
+    /* Other styles if needed */
+}
+
+body {
+    background-image: url('/wp-content/img/home-bg.png');
+    background-repeat: repeat-y;
+    background-size: auto; /* Ensures the background image repeats only vertically */
+    animation: scrollBg 10s linear infinite;
+}
+@keyframes scrollBg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}

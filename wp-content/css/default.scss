@@ -1,0 +1,29 @@
+---
+---
+
+.container {
+    padding: 1px 16px;
+    text-align: center;
+}
+
+.default-title {
+    margin-bottom: 0em; /* Reduced bottom margin */
+    margin-top: 0.5em; /* Increased top margin */
+    font-size: 4em; /* Large size for the title */
+}
+
+.default-subtitle {
+    font-size: 1em; /* Smaller size for the date */
+    color: #666; /* Optional: color for the date */
+    // margin-top: 0em; /* Reduced top margin */
+    // margin-bottom: 2em;
+}
+
+.default-content {
+    // max-width: 80vw; /* Set the width to 60% of the page */
+    // margin-left: calc((100vw - 80vw) / 2); /* Adjust for the sidebar's width */
+    // margin-right: calc((100vw - 80vw) / 2);
+    text-align: left; /* Keep the text left-aligned */
+    /* Other styles if needed */
+}
+
