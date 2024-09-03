@@ -27,8 +27,7 @@ twitter_username: diademiemi
 github_username: diademiemi
 
 # Build settings
-plugins:
-  - jekyll-feed
+plugins: []
 
 permalink: pretty
 # collections_dir: collections
